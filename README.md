@@ -28,17 +28,19 @@ response = gerritpy.get_http(url, path, username, password)
 
 print json.dumps(response, indent=4)
 ```
-you can get `http password` from your gerrit account,`settings`-`HTTP Password`,and then generate your password.
+You can get `http password` from your gerrit account,`settings`-`HTTP Password`,and then generate your password.
 
 ## TODO
 
-`POST` api
-`PUT` api
+```
+POST api
+PUT api
+```
 
 ## Contributors
 
-diaojunxian@huami.com
+junxiandiao@gmail.com
 
 ## LICENSE
 
-MIT
+[MIT](https://github.com/diaojunxian/gerritPython/blob/master/LICENSE)
