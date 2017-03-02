@@ -17,7 +17,7 @@ import json
 
 username = "{username}"
 
-password = "{http password}}"
+password = "{http password}"
 
 url = "{url}"
 
@@ -28,6 +28,7 @@ response = gerritpy.get_http(url, path, username, password)
 
 print json.dumps(response, indent=4)
 ```
+you can get `http password` from your gerrit account,`settings`-`HTTP Password`,and then generate your password.
 
 ## TODO
 
